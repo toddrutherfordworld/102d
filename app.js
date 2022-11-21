@@ -1,23 +1,23 @@
 'use strict'
 
-function yourName() {
-    let name = prompt('What is your name?');
+function yourCoffee() {
+    let coffee = prompt('What coffee is your favorite ');
 
-    return document.write(name);
+    return document.write(coffee);
 }
 
-function timeOfDay() {
-    let time = prompt('What hour is it? (0-23)'); // 15;
+function timeOfCoffee() {
+    let coffee = prompt('What Can I get Started for Today'); // 15;
     let message = '';
 
-    if (time <= 11) {
-        message = 'Good Morning!';
-    } else if (time <= 18) {
-        message = 'Good Afternoon!';
-    } else if (time < 24) {
-        message = "Good Evening!";
+    if (coffee = espresso) {
+        message = 'Welcome to Coffee House!';
+    } else if (coffee === regular) {
+        message = 'Chow!';
+    } else if (coffee < doubleshot) {
+        message = "Fuel Your Day";
     } else {
-        message = "That hour does not exist!";
+        message = "Sorry all out of that!";
     }
 
     return message;
